@@ -1,12 +1,12 @@
 cask "arandu" do
-  version "0.5.2"
+  version "0.6.0"
 
   on_arm do
-    sha256 "5191cc6023e4c0600b48765023ab5ca5c952cc60bb72177c53ec07bd6a0c902e"
+    sha256 "9d7252a75fa8ccf695782b35dce90de78f0ce0a924ace771c5bb2ece787003d0"
     url "https://github.com/devitools/arandu/releases/download/v#{version}/Arandu_#{version}_aarch64.dmg"
   end
   on_intel do
-    sha256 "a9d0c259b7444d8d4c6783fb8db8760eede2aea6eb73b8e4f6f882b8272c3178"
+    sha256 "f9e0dd727f730034f5d600852669c12fb093be409787c5e087cb864c811c18e3"
     url "https://github.com/devitools/arandu/releases/download/v#{version}/Arandu_#{version}_x64.dmg"
   end
 
